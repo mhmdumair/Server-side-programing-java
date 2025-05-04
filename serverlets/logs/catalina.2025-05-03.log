@@ -1,0 +1,535 @@
+03-May-2025 09:47:51.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 09:47:51.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 09:47:51.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 09:47:51.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 09:47:51.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 09:47:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 09:47:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 09:47:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 09:47:51.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 09:47:51.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 09:47:51.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 09:47:51.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 09:47:51.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 09:47:51.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 09:47:51.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 09:47:51.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 09:47:51.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 09:47:51.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 09:47:51.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 09:47:51.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 09:47:51.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 09:47:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=53130:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 09:47:51.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 09:47:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 09:47:51.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 09:47:51.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 09:47:51.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 09:47:51.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 09:47:52.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 09:47:54.694 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 09:47:54.804 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [5142] milliseconds
+03-May-2025 09:47:55.057 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 09:47:55.058 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 09:47:55.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 09:47:56.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [1,400] ms
+03-May-2025 09:47:56.504 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 09:47:56.589 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1783] milliseconds
+03-May-2025 20:35:35.990 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 20:35:36.057 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/serverlets] has started
+03-May-2025 20:35:37.768 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/serverlets] is completed
+03-May-2025 20:41:08.280 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 20:41:08.280 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/serverlets] has started
+03-May-2025 20:41:08.375 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/serverlets]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/serverlets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalArgumentException: Container name cannot be null
+		at org.apache.catalina.core.ContainerBase.setName(ContainerBase.java:477)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1519)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+03-May-2025 20:41:08.402 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/serverlets] is completed
+03-May-2025 20:42:18.459 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 20:42:18.493 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/serverlets] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/serverlets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalArgumentException: Container name cannot be null
+		at org.apache.catalina.core.ContainerBase.setName(ContainerBase.java:477)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1519)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+03-May-2025 20:43:48.615 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 20:43:48.768 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [13] column [3]
+	org.xml.sax.SAXParseException; systemId: file:/F:/University%20Course%20Meterials/year3/sem%201/ServerSide%20programing/Lectures/serverlets/src/main/webapp/WEB-INF/web.xml; lineNumber: 13; columnNumber: 3; Element type "URL" must be followed by either attribute specifications, ">" or "/>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1443)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1357)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+03-May-2025 20:43:48.781 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/F:/University%20Course%20Meterials/year3/sem%201/ServerSide%20programing/Lectures/serverlets/src/main/webapp/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/F:/University%20Course%20Meterials/year3/sem%201/ServerSide%20programing/Lectures/serverlets/src/main/webapp/WEB-INF/web.xml; lineNumber: 13; columnNumber: 3; Element type "URL" must be followed by either attribute specifications, ">" or "/>".
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1443)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1357)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+03-May-2025 20:43:48.815 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [13] column [3]
+03-May-2025 20:43:48.839 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+03-May-2025 20:43:48.840 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+03-May-2025 20:43:48.843 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/serverlets] startup failed due to previous errors
+03-May-2025 20:44:28.894 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 20:44:28.980 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/serverlets] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/serverlets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalArgumentException: Container name cannot be null
+		at org.apache.catalina.core.ContainerBase.setName(ContainerBase.java:477)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1519)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+03-May-2025 20:56:19.319 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:56:19.378 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 20:56:19.380 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:56:19.414 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:57:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 20:57:21.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 20:57:21.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 20:57:21.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 20:57:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 20:57:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 20:57:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 20:57:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 20:57:21.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 20:57:21.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 20:57:21.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 20:57:21.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 20:57:21.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 20:57:21.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 20:57:21.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 20:57:21.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 20:57:21.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=61604:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 20:57:21.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 20:57:21.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 20:57:21.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 20:57:22.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 20:57:22.020 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 20:57:22.020 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 20:57:22.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 20:57:23.141 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:57:23.190 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1929] milliseconds
+03-May-2025 20:57:23.324 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 20:57:23.324 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 20:57:23.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 20:57:23.824 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/serverlets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Container name cannot be null
+		at org.apache.catalina.core.ContainerBase.setName(ContainerBase.java:477)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1519)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 36 more
+03-May-2025 20:57:23.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [490] ms
+03-May-2025 20:57:23.835 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:57:24.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [824] milliseconds
+03-May-2025 20:58:40.282 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:58:40.292 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 20:58:40.294 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:58:40.298 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:58:43.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 20:58:43.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 20:58:43.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 20:58:43.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 20:58:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 20:58:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 20:58:43.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 20:58:43.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 20:58:43.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 20:58:43.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 20:58:43.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 20:58:43.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 20:58:43.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 20:58:43.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 20:58:43.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 20:58:43.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 20:58:43.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=61622:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 20:58:43.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 20:58:43.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 20:58:43.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 20:58:43.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 20:58:43.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 20:58:43.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 20:58:44.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 20:58:44.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:58:44.867 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1447] milliseconds
+03-May-2025 20:58:44.949 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 20:58:44.950 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 20:58:44.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 20:58:45.401 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/serverlets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Container name cannot be null
+		at org.apache.catalina.core.ContainerBase.setName(ContainerBase.java:477)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1519)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 36 more
+03-May-2025 20:58:45.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [446] ms
+03-May-2025 20:58:45.417 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 20:58:45.625 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [756] milliseconds
+03-May-2025 21:01:45.627 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/serverlets]
+03-May-2025 21:03:30.690 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:03:30.702 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 21:03:30.713 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:03:30.743 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:03:36.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 21:03:36.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 21:03:36.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 21:03:36.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 21:03:36.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 21:03:36.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 21:03:36.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 21:03:36.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 21:03:36.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 21:03:36.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:03:36.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:03:36.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 21:03:36.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 21:03:36.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 21:03:36.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 21:03:36.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 21:03:36.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=61645:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 21:03:36.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 21:03:36.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 21:03:36.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 21:03:36.436 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 21:03:36.436 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 21:03:36.436 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 21:03:36.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 21:03:37.392 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:03:37.426 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1610] milliseconds
+03-May-2025 21:03:37.515 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 21:03:37.515 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 21:03:37.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 21:03:38.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [960] ms
+03-May-2025 21:03:38.497 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:03:38.556 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1128] milliseconds
+03-May-2025 21:04:47.670 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:04:47.682 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 21:04:47.696 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:04:47.721 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:04:55.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 21:04:55.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 21:04:55.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 21:04:55.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 21:04:55.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 21:04:55.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 21:04:55.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 21:04:55.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 21:04:55.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 21:04:55.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:04:55.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:04:55.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 21:04:55.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 21:04:55.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 21:04:55.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 21:04:55.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 21:04:55.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:04:55.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:04:55.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 21:04:55.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 21:04:55.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 21:04:55.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=61654:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 21:04:55.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 21:04:55.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 21:04:55.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 21:04:55.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 21:04:55.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 21:04:55.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 21:04:55.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 21:04:56.583 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:04:56.625 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1688] milliseconds
+03-May-2025 21:04:56.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 21:04:56.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 21:04:56.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 21:04:57.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [805] ms
+03-May-2025 21:04:57.577 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:04:57.632 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1003] milliseconds
+03-May-2025 21:07:27.685 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:07:27.695 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 21:07:27.712 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:07:27.722 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:07:41.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+03-May-2025 21:07:41.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+03-May-2025 21:07:41.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+03-May-2025 21:07:41.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2025 21:07:41.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 21:07:41.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 21:07:41.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+03-May-2025 21:07:41.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2025 21:07:41.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2025 21:07:41.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:07:41.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:07:41.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 21:07:41.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 21:07:41.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 21:07:41.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 21:07:41.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 21:07:41.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+03-May-2025 21:07:41.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+03-May-2025 21:07:41.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+03-May-2025 21:07:41.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+03-May-2025 21:07:41.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 21:07:41.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=61678:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+03-May-2025 21:07:41.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 21:07:41.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-May-2025 21:07:41.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-May-2025 21:07:41.576 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+03-May-2025 21:07:41.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2025 21:07:41.578 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2025 21:07:41.592 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+03-May-2025 21:07:43.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:07:43.095 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1959] milliseconds
+03-May-2025 21:07:43.166 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 21:07:43.166 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-May-2025 21:07:43.180 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+03-May-2025 21:07:43.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [715] ms
+03-May-2025 21:07:43.902 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 21:07:43.962 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [864] milliseconds
