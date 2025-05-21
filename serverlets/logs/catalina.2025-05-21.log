@@ -1,0 +1,615 @@
+21-May-2025 11:40:55.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:40:55.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:40:55.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:40:55.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:40:55.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:40:55.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:40:55.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:40:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:40:55.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:40:55.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:40:55.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:40:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:40:55.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:40:55.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:40:55.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:40:55.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:40:55.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:40:55.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:40:55.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:40:55.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:40:55.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:40:55.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64945:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:40:55.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:40:56.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:40:56.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:40:56.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:40:56.697 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:40:56.697 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:40:57.137 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:40:59.168 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:40:59.250 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [5071] milliseconds
+21-May-2025 11:40:59.450 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:40:59.450 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:40:59.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:41:01.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [1,686] ms
+21-May-2025 11:41:01.185 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:41:01.273 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2019] milliseconds
+21-May-2025 11:43:12.552 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:43:12.566 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:43:12.702 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:43:12.707 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:43:19.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:43:19.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:43:19.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:43:19.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:43:19.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:43:19.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:43:19.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:43:19.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:43:19.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:43:19.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:43:19.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:43:19.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:43:19.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:43:19.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:43:19.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:43:19.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:43:19.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:43:19.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64968:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:43:19.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:43:19.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:43:19.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:43:19.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:43:19.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:43:19.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:43:20.906 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:43:20.954 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1577] milliseconds
+21-May-2025 11:43:21.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:43:21.069 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:43:21.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:43:22.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [946] ms
+21-May-2025 11:43:22.042 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:43:22.120 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1161] milliseconds
+21-May-2025 11:44:00.992 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:44:01.007 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:44:01.035 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:44:01.047 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:44:09.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:44:09.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:44:09.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:44:09.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:44:09.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:44:09.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:44:09.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:44:09.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:44:09.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:44:09.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:44:09.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:44:09.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:44:09.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:44:09.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:44:09.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:44:09.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:44:09.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:44:09.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:44:09.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:44:09.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:44:09.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:44:09.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64976:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:44:09.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:44:09.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:44:09.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:44:09.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:44:09.951 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:44:09.951 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:44:09.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:44:10.761 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:44:10.795 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1345] milliseconds
+21-May-2025 11:44:10.896 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:44:10.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:44:10.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:44:11.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [845] ms
+21-May-2025 11:44:11.763 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:44:11.843 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1045] milliseconds
+21-May-2025 11:45:06.098 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:45:06.110 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:45:06.142 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:45:06.165 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:45:14.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:45:14.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:45:14.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:45:14.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:45:14.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:45:14.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:45:14.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:45:14.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:45:14.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:45:14.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:45:14.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:45:14.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:45:14.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:45:14.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:45:14.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:45:14.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:45:14.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:45:14.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:45:14.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:45:14.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:45:14.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:45:14.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64985:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:45:14.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:45:14.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:45:14.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:45:14.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:45:14.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:45:14.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:45:14.351 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:45:15.344 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:45:15.427 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1583] milliseconds
+21-May-2025 11:45:15.646 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:45:15.647 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:45:15.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:45:16.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [1,274] ms
+21-May-2025 11:45:16.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:45:17.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1647] milliseconds
+21-May-2025 11:46:03.010 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:03.021 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:46:03.045 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:03.053 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:46:08.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:46:08.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:46:08.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:46:08.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:46:08.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:46:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:46:08.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:46:08.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:46:08.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:46:08.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:46:08.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:46:08.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:46:08.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:46:08.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:46:08.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:46:08.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64991:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:46:08.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:46:08.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:46:08.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:46:08.425 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:46:08.425 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:46:08.425 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:46:08.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:46:09.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:09.276 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1329] milliseconds
+21-May-2025 11:46:09.372 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:46:09.374 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:46:09.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:46:10.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [732] ms
+21-May-2025 11:46:10.136 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:10.197 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [918] milliseconds
+21-May-2025 11:46:36.578 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:36.590 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:46:36.616 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:36.623 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:41.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:46:41.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:46:41.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:46:41.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:46:41.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:46:41.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:46:41.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:46:41.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:46:41.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:46:41.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:46:41.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:46:41.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:46:41.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:46:41.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:46:41.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:46:41.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:46:41.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:46:41.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:46:41.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:46:41.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:46:41.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:46:41.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=64998:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:46:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:46:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:46:41.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:46:41.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:46:41.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:46:41.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:46:41.786 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:46:42.829 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:42.873 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1627] milliseconds
+21-May-2025 11:46:42.970 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:46:42.971 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:46:43.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:46:44.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [1,080] ms
+21-May-2025 11:46:44.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:46:44.209 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1333] milliseconds
+21-May-2025 11:49:11.969 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:49:11.982 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:49:12.009 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:49:12.026 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:49:21.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 11:49:21.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 11:49:21.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 11:49:21.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 11:49:21.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 11:49:21.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 11:49:21.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 11:49:21.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 11:49:21.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 11:49:21.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:49:21.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:49:21.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 11:49:21.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=65013:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 11:49:21.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 11:49:21.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 11:49:21.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 11:49:21.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 11:49:21.106 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 11:49:21.120 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 11:49:22.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:49:22.295 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1700] milliseconds
+21-May-2025 11:49:22.384 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 11:49:22.384 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 11:49:22.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 11:49:23.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [764] ms
+21-May-2025 11:49:23.175 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:49:23.236 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [938] milliseconds
+21-May-2025 11:50:04.810 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:50:04.819 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 11:50:04.848 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 11:50:04.855 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:34:36.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:34:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:34:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:34:36.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:34:36.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:34:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:34:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:34:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:34:36.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:34:36.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:34:36.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:34:36.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:34:36.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:34:36.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:34:36.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:34:36.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:34:36.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:34:36.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:34:36.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:34:36.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:34:36.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:34:36.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63474:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:34:36.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:34:36.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:34:36.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:34:36.624 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:34:36.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:34:36.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:34:37.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:34:41.502 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:34:41.607 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [11969] milliseconds
+21-May-2025 14:34:42.327 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:34:42.327 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:34:42.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:34:45.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [2,686] ms
+21-May-2025 14:34:45.117 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:34:45.289 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3674] milliseconds
+21-May-2025 14:39:24.484 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:39:24.494 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:39:24.557 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:39:24.574 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:39:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:39:37.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:39:37.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:39:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:39:37.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:39:37.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:39:37.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:39:37.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:39:37.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:39:37.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:39:37.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:39:37.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:39:37.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:39:37.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:39:37.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:39:37.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:39:37.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:39:37.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:39:37.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:39:37.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:39:37.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:39:37.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63546:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:39:37.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:39:37.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:39:37.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:39:38.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:39:38.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:39:38.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:39:38.218 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:39:38.864 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:39:38.896 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1426] milliseconds
+21-May-2025 14:39:38.979 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:39:38.979 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:39:38.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:39:39.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [617] ms
+21-May-2025 14:39:39.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:39:39.675 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [776] milliseconds
+21-May-2025 14:41:03.483 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:41:03.493 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:41:03.510 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:41:03.537 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:41:06.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:41:06.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:41:06.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:41:06.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:41:06.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:41:06.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:41:06.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:41:06.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:41:06.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:41:06.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:41:06.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:41:06.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:41:06.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:41:06.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:41:06.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:41:06.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:41:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:41:06.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:41:06.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:41:06.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:41:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:41:06.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63558:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:41:06.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:41:06.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:41:06.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:41:06.801 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:41:06.836 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:41:06.836 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:41:06.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:41:07.994 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:41:08.034 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1955] milliseconds
+21-May-2025 14:41:08.140 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:41:08.141 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:41:08.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:41:08.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [733] ms
+21-May-2025 14:41:08.899 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:41:08.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [937] milliseconds
+21-May-2025 14:42:01.202 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:42:01.213 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:42:01.234 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:42:01.253 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:42:08.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:42:08.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:42:08.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:42:08.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:42:08.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:42:08.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:42:08.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:42:08.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:42:08.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:42:08.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:42:08.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:42:08.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:42:08.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:42:08.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:42:08.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:42:08.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:42:08.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:42:08.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:42:08.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:42:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:42:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:42:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63593:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:42:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:42:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:42:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:42:08.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:42:08.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:42:08.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:42:08.243 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:42:08.954 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:42:09.001 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1170] milliseconds
+21-May-2025 14:42:09.086 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:42:09.086 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:42:09.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:42:09.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [673] ms
+21-May-2025 14:42:09.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:42:09.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [834] milliseconds
+21-May-2025 14:43:17.044 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:43:17.055 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:43:17.092 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:43:17.107 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:43:20.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:43:20.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:43:20.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:43:20.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:43:20.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:43:20.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:43:20.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:43:20.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:43:20.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:43:20.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:43:20.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:43:20.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:43:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:43:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:43:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:43:20.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:43:20.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63608:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:43:20.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:43:20.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:43:20.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:43:20.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:43:20.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:43:20.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:43:20.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:43:20.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:43:21.005 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1406] milliseconds
+21-May-2025 14:43:21.108 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:43:21.108 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:43:21.128 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:43:22.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [967] ms
+21-May-2025 14:43:22.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:43:22.182 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1174] milliseconds
+21-May-2025 14:44:08.559 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:08.574 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:44:08.603 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:08.623 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:15.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:44:15.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:44:15.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:44:15.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:44:15.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:44:15.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:44:15.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:44:15.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:44:15.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:44:15.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:44:15.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:44:15.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:44:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:44:15.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:44:15.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:44:15.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:44:15.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:44:15.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:44:15.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:44:15.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:44:15.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:44:15.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63619:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:44:15.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:44:15.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:44:15.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:44:15.643 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:44:15.643 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:44:15.644 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:44:15.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:44:16.713 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:16.756 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1687] milliseconds
+21-May-2025 14:44:16.856 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:44:16.857 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:44:16.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:44:17.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [706] ms
+21-May-2025 14:44:17.588 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:17.647 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [888] milliseconds
+21-May-2025 14:44:59.086 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:59.109 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:44:59.149 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:44:59.158 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:04.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:45:04.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:45:04.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:45:04.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:45:04.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:45:04.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:45:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:45:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:45:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:45:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:45:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:45:04.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:45:04.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:45:04.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:45:04.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:45:04.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:45:04.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:45:04.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:45:04.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:45:04.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:45:04.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:45:04.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63631:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:45:04.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:45:04.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:45:04.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:45:04.177 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:45:04.177 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:45:04.177 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:45:04.188 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:45:05.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:05.354 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1777] milliseconds
+21-May-2025 14:45:05.485 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:45:05.485 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:45:05.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:45:06.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [869] ms
+21-May-2025 14:45:06.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:06.446 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1089] milliseconds
+21-May-2025 14:45:18.298 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:18.309 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 14:45:18.322 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:18.349 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:22.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+21-May-2025 14:45:22.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+21-May-2025 14:45:22.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+21-May-2025 14:45:22.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2025 14:45:22.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2025 14:45:22.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2025 14:45:22.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             F:\Personal Items\softwares\jdk-21
+21-May-2025 14:45:22.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2025 14:45:22.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2025 14:45:22.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:45:22.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:45:22.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2025 14:45:22.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2025 14:45:22.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2025 14:45:22.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2025 14:45:22.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2025 14:45:22.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\tomcat\apache-tomcat-9.0.64
+21-May-2025 14:45:22.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets
+21-May-2025 14:45:22.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\temp
+21-May-2025 14:45:22.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\logging.properties
+21-May-2025 14:45:22.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2025 14:45:22.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar=63635:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin
+21-May-2025 14:45:22.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-May-2025 14:45:22.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-May-2025 14:45:22.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-May-2025 14:45:22.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+21-May-2025 14:45:22.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2025 14:45:22.539 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2025 14:45:22.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+21-May-2025 14:45:23.319 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:23.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1302] milliseconds
+21-May-2025 14:45:23.432 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2025 14:45:23.432 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+21-May-2025 14:45:23.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml]
+21-May-2025 14:45:24.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\conf\Catalina\localhost\serverlets.xml] has finished in [669] ms
+21-May-2025 14:45:24.123 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2025 14:45:24.183 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [830] milliseconds
+21-May-2025 15:55:04.533 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2025 15:55:04.575 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2025 15:55:04.674 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2025 15:55:04.696 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
