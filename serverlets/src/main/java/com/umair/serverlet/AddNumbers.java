@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.Writer;
 
 public class AddNumbers extends HttpServlet {
-    public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
         int num1 = Integer.parseInt(req.getParameter("num1"));
         int num2 = Integer.parseInt(req.getParameter("num2"));
 //        String[] values = request.getParameterValues("fieldName");
@@ -18,9 +18,15 @@ public class AddNumbers extends HttpServlet {
 //        wr.write("Total : "+(num1+num2));
 
         int total = num1+num2;
-        req.setAttribute("total",total);
+//        req.setAttribute("total",total);
 
-        RequestDispatcher rd = req.getRequestDispatcher("display");
-        rd.forward(req,res);
+        // Request Dispatcher we need to servlet mapping for display route as well
+
+//        RequestDispatcher rd = req.getRequestDispatcher("display");
+//        rd.forward(req,res);
+
+        //Redirection
+
+        res.sendRedirect("display?total="+total); //URL Rewriting
     }
 }
