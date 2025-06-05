@@ -13,7 +13,6 @@ public class CovidScraper {
             covidData.setRecovered(doc.select("div.maincounter-number span").get(2).text());
             covidData.setActiveCases(doc.select("div.number-table-main").get(0).text());
             covidData.setClosedCases(doc.select("div.number-table-main").get(1).text());
-
             System.out.println(covidData.printData());
 
 
