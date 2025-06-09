@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aea4200f-7dcd-4b69-9c8b-b89e2b77aae2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-05-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2025-05-21.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web_scraping/src/main/java/org/example/CovidScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_scraping/src/main/java/org/example/CovidScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/Catalina/localhost/serverlets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umair/serverlet/AddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umair/serverlet/AddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umair/serverlet/DisplayServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umair/serverlet/DisplayServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,30 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/University Course Meterials/year3/sem 1/ServerSide programing/Lectures/Calculator-Serverlet",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/University Course Meterials/year3/sem 1/ServerSide programing/Lectures/Jsp/src/main/java/com/umair/jsp/DisplayServlet.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat: serverlets" type="com.poratu.idea.plugins.tomcat" temporary="true">
+    <configuration name="Tomcat: serverlets" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="F:\University Course Meterials\year3\sem 1\ServerSide programing\Lectures\serverlets" />
-      <option name="contextPath" value="/serverlets" />
+      <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
@@ -76,11 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Smart Tomcat.Tomcat: serverlets" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
